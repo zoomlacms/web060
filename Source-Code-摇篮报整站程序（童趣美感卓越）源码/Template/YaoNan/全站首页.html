@@ -1,0 +1,221 @@
+﻿<!DOCTYPE HTML>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="msapplication-TileColor" content="#1A0066"/>
+<meta name="msapplication-TileImage" content="/Template/office/{$CssDir/}images/win8_symbol_140x140.png"/>
+<title>欢迎访问{$SiteName/}_首页</title>
+{ZL:Boot()/}
+<link href="{$CssDir/}global.css?Version={ZL.Label id="前端样式版本号"/}" rel="stylesheet" type="text/css" /> 
+<script src="/js/scrolltopcontrol.js" type="text/javascript"></script>
+</head> 
+<body>
+<div class="navbar-fixed-top">
+<div class="cradle_nav">
+<div class="container">
+<div class="row">
+<div class="cradle_nav_o">
+<div class="navbar navbar-default">
+<div class="navbar navbar-static-top" role="navigation">
+<div class="navbar-header">
+<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+<span class="sr-only">Toggle navigation</span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+</button>
+<div class="cradle_nav_ol">
+<a href="/"><img src="{$LogoUrl/}" alt="{$SiteName/}" /></a>
+<span>全国免费上门订购电话11185，您只需要报我们邮发代号5-58（《摇篮·幼儿智力乐园》）、5-59（《摇篮·幼儿识字画报》）即可订购。</span>
+</div>
+</div>
+<div class="navbar-collapse collapse">
+<ul class="nav navbar-nav list-unstyled">
+<li class="nav1"><a href="{ZL:GetNodeLinkUrl(5)/}" title="关于摇篮报"><span></span></a></li>
+<li class="nav2 dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false" title="摇篮展示"><span></span></a>
+<ul class="dropdown-menu" role="menu" style="padding-top:5px; min-width:inherit;">
+<li><a href="{ZL:GetNodeLinkUrl(6)/}">识字画报</a></li>
+<li><a href="{ZL:GetNodeLinkUrl(7)/}">智力乐园</a></li>
+<li><a href="{ZL:GetNodeLinkUrl(8)/}">小小天才</a></li>
+<li><a href="{ZL:GetNodeLinkUrl(9)/}">校园报纸</a></li>
+<li><a href="{ZL:GetNodeLinkUrl(10)/}">动漫水晶</a></li>
+</ul>
+</li>
+<li class="nav3"><a href="{ZL:GetNodeLinkUrl(4)/}" title="最新动态"><span></span></a></li>
+<li class="nav4"><a href="{ZL:GetNodeLinkUrl(3)/}" title="公告栏目"><span></span></a></li>
+<li class="nav5"><a href="{ZL:GetInfoUrl(6)/}" title="联系我们"><span></span></a></li>
+<li class="nav6"><a href="/guest/" title="顾客留言"><span></span></a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="cradle_h"></div>
+<!-- 导航到此结束 -->
+<div class="clearfix"></div>
+<div class="cradle_back">
+<div class="cradle_nav">
+<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+<ol class="carousel-indicators">
+<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+<li data-target="#carousel-example-generic" data-slide-to="1"></li>
+<li data-target="#carousel-example-generic" data-slide-to="2"></li>
+</ol>
+<div class="carousel-inner" role="listbox">
+<div class="item active">
+<a href="{ZL:GetNodeLinkUrl(2)/}" target="_blank"><img src="{$CssDir/}images/pic1.jpg" alt="{$SiteName/}"/></a>
+<div class="carousel-caption">
+<p><a class="btn btn-info" href="{ZL:GetInfoUrl(6)/}" role="button" target="_blank">进入报社</a></p>
+</div>
+</div>
+<div class="item">
+<a href="{ZL:GetNodeLinkUrl(2)/}" target="_blank"><img src="{$CssDir/}images/pic2.jpg" alt="{$SiteName/}"/></a>
+<div class="carousel-caption">
+<p><a class="btn btn-success" href="{ZL:GetNodeLinkUrl(2)/}" role="button" target="_blank">摇篮展示</a></p>
+</div>
+</div>
+<div class="item">
+<a href="{ZL:GetNodeLinkUrl(2)/}" target="_blank"><img src="{$CssDir/}images/pic3.jpg" alt="{$SiteName/}"/></a>
+<div class="carousel-caption">
+<p><a class="btn btn-danger" href="{ZL:GetNodeLinkUrl(5)/}" role="button" target="_blank">关于我们</a></p>
+</div>
+</div>
+</div>
+<a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+<span class="sr-only">Previous</span>
+</a>
+<a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+<span class="sr-only">Next</span>
+</a>
+</div>
+</div>
+<!-- 广告结束 -->
+<div class="cradle_roll">
+<div class="container">
+<div class="row">
+<div class="rollBox">
+<div class="col-lg-1 col-md-1 col-sm-1 col-xs-2 LeftBotton">
+<img src="{$CssDir/}images/Background5.png"  alt=""  onmousedown="ISL_GoUp()" onmouseup="ISL_StopUp()" onmouseout="ISL_StopUp()" class="img-responsive">
+</div>
+<div class="col-lg-10 col-md-10 col-sm-10 col-xs-8 Cont" id="ISL_Cont">
+<div class="ScrCont">
+<div id="List1">
+<!-- 图片列表 begin -->
+{ZL.Label id="首页输出滚动图片列表" NodeID="2" ShowNum="20" /}
+</div>
+<div id="List2"></div>
+</div>
+</div>
+<div class="col-lg-1 col-md-1 col-sm-1 col-xs-2 RightBotton" onmousedown="ISL_GoDown()" onmouseup="ISL_StopDown()" onmouseout="ISL_StopDown()">
+<img src="{$CssDir/}images/Background6.png"  alt=""   onmousedown="ISL_GoDown()" onmouseup="ISL_StopDown()" onmouseout="ISL_StopDown()" class="img-responsive"/>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!--内容结束 -->
+<div class="cradle_page">
+<div class="container">
+<div class="row">
+{$Copyright/}
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>
+<script>
+var Speed = 3; //速度(毫秒)
+var Space = 7; //每次移动(px)
+var PageWidth = 400; //翻页宽度
+var fill = 0; //整体移位
+var MoveLock = false;
+var MoveTimeObj;
+var Comp = 0;
+var AutoPlayObj = null;
+GetObj("List2").innerHTML = GetObj("List1").innerHTML;
+GetObj('ISL_Cont').scrollLeft = fill;
+GetObj("ISL_Cont").onmouseover = function(){clearInterval(AutoPlayObj);}
+GetObj("ISL_Cont").onmouseout = function(){AutoPlay();}
+AutoPlay();
+function GetObj(objName){if(document.getElementById){return eval('document.getElementById("'+objName+'")')}else{return eval('document.all.'+objName)}}
+function AutoPlay(){ //自动滚动
+ clearInterval(AutoPlayObj);
+ AutoPlayObj = setInterval('ISL_GoDown();ISL_StopDown();',3000); //间隔时间
+}
+function ISL_GoUp(){ //上翻开始
+ if(MoveLock) return;
+ clearInterval(AutoPlayObj);
+ MoveLock = true;
+ MoveTimeObj = setInterval('ISL_ScrUp();',Speed);
+}
+function ISL_StopUp(){ //上翻停止
+ clearInterval(MoveTimeObj);
+ if(GetObj('ISL_Cont').scrollLeft % PageWidth - fill != 0){
+  Comp = fill - (GetObj('ISL_Cont').scrollLeft % PageWidth);
+  CompScr();
+ }else{
+  MoveLock = false;
+ }
+ AutoPlay();
+}
+function ISL_ScrUp(){ //上翻动作
+ if(GetObj('ISL_Cont').scrollLeft <= 0){GetObj('ISL_Cont').scrollLeft = GetObj('ISL_Cont').scrollLeft + GetObj('List1').offsetWidth}
+ GetObj('ISL_Cont').scrollLeft -= Space ;
+}
+function ISL_GoDown(){ //下翻
+ clearInterval(MoveTimeObj);
+ if(MoveLock) return;
+ clearInterval(AutoPlayObj);
+ MoveLock = true;
+ ISL_ScrDown();
+ MoveTimeObj = setInterval('ISL_ScrDown()',Speed);
+}
+function ISL_StopDown(){ //下翻停止
+ clearInterval(MoveTimeObj);
+ if(GetObj('ISL_Cont').scrollLeft % PageWidth - fill != 0 ){
+  Comp = PageWidth - GetObj('ISL_Cont').scrollLeft % PageWidth + fill;
+  CompScr();
+ }else{
+  MoveLock = false;
+ }
+ AutoPlay();
+}
+function ISL_ScrDown(){ //下翻动作
+ if(GetObj('ISL_Cont').scrollLeft >= GetObj('List1').scrollWidth){GetObj('ISL_Cont').scrollLeft = GetObj('ISL_Cont').scrollLeft - GetObj('List1').scrollWidth;}
+ GetObj('ISL_Cont').scrollLeft += Space ;
+}
+function CompScr(){
+ var num;
+ if(Comp == 0){MoveLock = false;return;}
+ if(Comp < 0){ //上翻
+  if(Comp < -Space){
+   Comp += Space;
+   num = Space;
+  }else{
+   num = -Comp;
+   Comp = 0;
+  }
+  GetObj('ISL_Cont').scrollLeft -= num;
+  setTimeout('CompScr()',Speed);
+ }else{ //下翻
+  if(Comp > Space){
+   Comp -= Space;
+   num = Space;
+  }else{
+   num = Comp;
+   Comp = 0;
+  }
+  GetObj('ISL_Cont').scrollLeft += num;
+  setTimeout('CompScr()',Speed);
+ }
+}
+</script>

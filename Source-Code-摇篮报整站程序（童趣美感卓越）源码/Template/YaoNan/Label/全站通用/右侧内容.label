@@ -1,0 +1,32 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <Table>
+    <LabelID>722</LabelID>
+    <LabelName>右侧内容</LabelName>
+    <LabelType>1</LabelType>
+    <LabelCate>全站通用</LabelCate>
+    <LabelDesc />
+    <LabelParam />
+    <LabelTable />
+    <LabelField />
+    <LabelWhere />
+    <LabelOrder />
+    <LabelContent>&lt;img  src="{$CssDir/}images/jy.jpg" alt="{$SiteName/}" class="img-responsive"/&gt;
+&lt;p class="list_right_r_p"&gt;推荐摇篮&lt;/p&gt;
+&lt;ul class="list-unstyled"&gt;
+{ZL.Label id="输出推荐图片简介标题_无分页" NodeID="2"  ShowNum="6" TitleNum="40" SynNum="200" /}
+&lt;/ul&gt;</LabelContent>
+    <LabelCount />
+    <LabelAddUser>0</LabelAddUser>
+    <LabelNodeID>0</LabelNodeID>
+    <Modeltypeinfo>计数判断</Modeltypeinfo>
+    <addroot>循环计算</addroot>
+    <setroot>等于</setroot>
+    <Modelvalue>0</Modelvalue>
+    <Valueroot />
+    <IsOpen>0</IsOpen>
+    <FalseContent />
+    <DataSourceType />
+    <ConnectString />
+  </Table>
+</NewDataSet>

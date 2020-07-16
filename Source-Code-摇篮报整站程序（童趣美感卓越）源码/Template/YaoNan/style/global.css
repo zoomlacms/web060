@@ -1,0 +1,144 @@
+﻿@charset "utf-8";
+/* 全局样式定义 Powered by Zoomla!逐浪CMS z01.com*/
+a:active {star:expression(this.onFocus=this.blur());} 
+canvas {-ms-touch-action:double-tap-zoom;}
+.padding0{ padding:0;}
+.padding5 { padding-left:5px; padding-right:5px;}
+.padding10 { padding-left:10px; padding-right:10px;}
+.padding_right0{ padding-right:0;}
+.margin_bottom0 { margin-bottom:0;}
+
+.cradle_h{ margin-top:8.6em;}
+.cradle_nav{ background:url(images/pic.jpg) no-repeat; border-bottom:2px solid #009900;}
+.cradle_nav_o img{ padding-top:1em;}
+.cradle_nav_o .navbar{ border:0; background:none; margin:0;}
+.cradle_nav_ol { max-width:600px;}
+.cradle_nav_ol a { display:block; float:left;}
+.cradle_nav_ol span { display:block; float:left; margin-left:0.5em; max-width:30em; margin-top:2.5em;}
+.cradle_nav_o ul{ padding-top:2em; float:right;}
+.cradle_nav_o ul .nav1 span{background:url(images/nav1.gif) no-repeat; min-height:60px; width:60px; display:block;}
+.cradle_nav_o ul .nav2 span{background:url(images/nav2.gif) no-repeat; min-height:60px; width:60px; display:block;}
+.cradle_nav_o ul .nav3 span{background:url(images/nav3.gif) no-repeat; min-height:60px; width:60px; display:block;}
+.cradle_nav_o ul .nav4 span{background:url(images/nav4.gif) no-repeat; min-height:60px; width:60px; display:block;}
+.cradle_nav_o ul .nav5 span{background:url(images/nav5.gif) no-repeat; min-height:60px; width:60px; display:block;}
+.cradle_nav_o ul .nav6 span{background:url(images/liu.png) no-repeat; min-height:60px; width:60px; display:block;}
+.cradle_nav_o ul .nav1 span:hover{background:url(images/nav1i.gif) no-repeat; min-height:60px; width:60px; display:block;}
+.cradle_nav_o ul .nav2 span:hover{background:url(images/nav2i.gif) no-repeat; min-height:60px; width:60px; display:block;}
+.cradle_nav_o ul .nav3 span:hover{background:url(images/nav3i.gif) no-repeat; min-height:60px; width:60px; display:block;}
+.cradle_nav_o ul .nav4 span:hover{background:url(images/nav4i.gif) no-repeat; min-height:60px; width:60px; display:block;}
+.cradle_nav_o ul .nav5 span:hover{background:url(images/nav5i.gif) no-repeat; min-height:60px; width:60px; display:block;}
+.cradle_nav_o ul .nav6 span:hover{background:url(images/liu.gif) no-repeat; min-height:60px; width:60px; display:block;}
+.cradle_nav_r { background:#009900; min-height:2em; line-height:2em; border:1px solid #009900; border-radius:0 0 0 10px; margin-top:3.4em;}
+.cradle_nav_r ul{ margin:0; padding-left:1.2em;}
+.cradle_nav_r ul li{ float:left; color:#FFF; min-height:1.8em; line-height:1.8em;}
+.cradle_nav_r ul li span{ padding:0 1em;}
+.cradle_nav_r ul li a{ color:#FFF;}
+.cradle_nav .carousel-caption p{ padding:30px 0px;}
+.cradle_nav .carousel-caption p a{ font-size:24px;}
+
+.cradle_back { padding-bottom:1em; background:#68B8EB;}
+.cradle_roll { margin-top:1em; padding-bottom:1em;}
+.cradle_roll .LeftBotton{ cursor:pointer; margin-top:2.6em;}
+.cradle_roll .RightBotton{cursor:pointer;margin-top:2.6em;}
+.cradle_roll .RightBotton img{float:right;}
+.cradle_roll .rollBox .Cont{overflow:hidden;float:left;}
+.cradle_roll .rollBox .ScrCont{width:10000000px;}
+.cradle_roll .rollBox .Cont .pic { width:130px; float:left;text-align:center; margin:1em;}
+.cradle_roll .rollBox .Cont .pic img { width:130px; height:180px;}
+.cradle_roll .rollBox #List1,.cradle_roll .rollBox #List2{float:left; margin-left:1em;}
+.cradle_roll .rollBox #List2{margin-left:2em;}
+
+.cradle_page{background:url(images/pic8.jpg) no-repeat; min-height:8.6em; background-size:cover;}
+.cradle_page p{ text-align:center; color:#FFF; margin-top:6.8em;}
+.cradle_page p a{color:#FFF;}
+.cradle_page p span{ padding:0 0.4em;}
+/*图文列表页*/
+.image img{ height:200px; width:240px;}
+.image li{ margin-bottom:3em; border-bottom:1px dashed #F5F5F5;padding-bottom:2em;}
+.image_r a{ font-size:20px; color:#FFF;}
+.image_r p{ margin-top:1em; color:#E3E3E3;}
+.list_right { margin-top:1em;}
+.list_right_l { margin-top:1em; padding:1em; background:#fff;}
+.list_right_r { margin-top:1em; padding:1em; background:#fff;}
+.list_right_r a{ font-size:16px;}
+.list_right_r .media-left img { width:70px; height:100px;}
+.list_right_r ul li p{ font-size:12px;}
+.list_right_r ul li{ margin-bottom:1em;}
+.list_right_r_p { min-height:2em; line-height:2em; border-bottom:1px solid #F00; font-size:18px; margin:0;margin-top:1em; margin-bottom:1em;}
+.image li:last-child{ border-bottom:0;}
+/*内容页*/
+.myAnnoun{margin-bottom:2em;}		
+.myContent { text-align:justify; height:auto; overflow:hidden; min-height:50em; }
+.myContent img{ max-width:100%;}
+.myAbbr{ margin-bottom:3em;}
+.myAbbr p{ margin-right:1em; margin-top:0.2em;}
+
+#CreateTime{ margin-bottom:2em;}
+
+.pics_list { }
+.pics_list_t { line-height:2.5em; border-bottom:1px solid #ddd;}
+.pics_list_t span { font-size:0.857em;}
+.pics_list_c { margin-top:1em;}
+.pics_list_c a img { width:100%; height:240px; border:1px solid #ddd;}
+.pics_list_c a img:hover { border:1px solid #c00;}
+.pics_list_c h3 { margin-top:10px; margin-bottom:10px; text-align:center; font-size:1.1em;}
+.pics_list_c h3 a:hover { color:#c00;}
+.pics_clist .media { margin-top:0; padding-top:15px; padding-bottom:15px; border-bottom:1px dotted #ddd;}
+.pics_clist .media-left { padding-right:15px;}
+.pics_clist .media-left img { width:140px; height:200px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:768px){
+.cradle_h{ display:none;}
+.navbar-fixed-top, .navbar-static-top{ position:inherit;}
+.cradle_h{ margin-top:16.3em;}	
+.cradle_nav_o img{ padding-top:0em; padding-bottom:1em; padding-left:0.4em;}
+.cradle_nav_o button{ margin-top:2em;}
+.cradle_nav .navbar-default .navbar-toggle{ border:1px solid #438FF5;}
+.cradle_nav .navbar-default .navbar-toggle .icon-bar { background:#569AF7;}
+.cradle_nav_o ul{ float:none;}
+.cradle_nav_o ul li{ float:left;}
+.cradle_nav_o ul{ padding-top:0; margin-top:2em;}
+.cradle_nav_o{ margin-top:1em;}
+.cradle_nav .navbar-default .navbar-collapse, .cradle_nav .navbar-default .navbar-form{ border:0;}
+.cradle_nav_r{ margin-bottom:1em; margin-top:0;}	
+.cradle_nav_r ul li span{ padding:0 0.4em;}
+.cradle_roll  .rollBox .Cont .pic img{ height:100px;}
+.list_right_r ul li .image_l a img{ height:200px; display: block;margin-left: auto;margin-right: auto;} 
+.list_right_r ul li .image_r{ text-align:center;}
+.cradle_page p{ margin-top:1.8em;}
+.cradle_back .carousel-inner > .item > img,.cradle_back .carousel-inner > .item > a > img { height:190px;}
+}
+
+@media (min-width:768px) and (max-width:991px){/*在768和991px之间的屏幕里生效*/
+
+
+
+}
+@media (min-width:992px) and (max-width:1199px){/*在992和1199px之间的屏幕里生效*/
+
+
+
+}
+@media (min-width:1200px}{/*在大于1200px的屏幕里生效*/
+
+
+}
+
+/*key:UG93ZXJlZCBieSBab29tbGEh6YCQ5rWqQ01TIHd3d3cuWm9vbWxhLmNu */
+
+

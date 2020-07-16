@@ -1,0 +1,76 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <Table>
+    <LabelID>718</LabelID>
+    <LabelName>全站头部</LabelName>
+    <LabelType>1</LabelType>
+    <LabelCate>全站通用</LabelCate>
+    <LabelDesc />
+    <LabelParam />
+    <LabelTable />
+    <LabelField />
+    <LabelWhere />
+    <LabelOrder />
+    <LabelContent>&lt;div class="navbar-fixed-top"&gt;
+&lt;div class="cradle_nav"&gt;
+&lt;div class="container"&gt;
+&lt;div class="row"&gt;
+&lt;div class="cradle_nav_o"&gt;
+&lt;div class="navbar navbar-default"&gt;
+&lt;div class="navbar navbar-static-top" role="navigation"&gt;
+&lt;div class="navbar-header"&gt;
+&lt;button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"&gt;
+&lt;span class="sr-only"&gt;Toggle navigation&lt;/span&gt;
+&lt;span class="icon-bar"&gt;&lt;/span&gt;
+&lt;span class="icon-bar"&gt;&lt;/span&gt;
+&lt;span class="icon-bar"&gt;&lt;/span&gt;
+&lt;/button&gt;
+&lt;div class="cradle_nav_ol"&gt;
+&lt;a href="/"&gt;&lt;img src="{$LogoUrl/}" alt="{$SiteName/}" /&gt;&lt;/a&gt;
+&lt;span&gt;全国免费上门订购电话11185，您只需要报我们邮发代号5-58（《摇篮·幼儿智力乐园》）、5-59（《摇篮·幼儿识字画报》）即可订购。&lt;/span&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="navbar-collapse collapse"&gt;
+&lt;ul class="nav navbar-nav list-unstyled"&gt;
+&lt;li class="nav1"&gt;&lt;a href="{ZL:GetNodeLinkUrl(5)/}" title="关于摇篮报"&gt;&lt;span&gt;&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li class="nav2 dropdown"&gt;
+&lt;a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false" title="摇篮展示"&gt;&lt;span&gt;&lt;/span&gt;&lt;/a&gt;
+&lt;ul class="dropdown-menu" role="menu" style="padding-top:5px; min-width:inherit;"&gt;
+&lt;li&gt;&lt;a href="{ZL:GetNodeLinkUrl(6)/}"&gt;识字画报&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="{ZL:GetNodeLinkUrl(7)/}"&gt;智力乐园&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="{ZL:GetNodeLinkUrl(8)/}"&gt;小小天才&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="{ZL:GetNodeLinkUrl(9)/}"&gt;校园报纸&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="{ZL:GetNodeLinkUrl(10)/}"&gt;动漫水晶&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li class="nav3"&gt;&lt;a href="{ZL:GetNodeLinkUrl(4)/}" title="最新动态"&gt;&lt;span&gt;&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li class="nav4"&gt;&lt;a href="{ZL:GetNodeLinkUrl(3)/}" title="公告栏目"&gt;&lt;span&gt;&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li class="nav5"&gt;&lt;a href="{ZL:GetInfoUrl(6)/}" title="联系我们"&gt;&lt;span&gt;&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li class="nav6"&gt;&lt;a href="/guest/" title="顾客留言"&gt;&lt;span&gt;&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="cradle_h"&gt;&lt;/div&gt;
+&lt;!-- 导航到此结束 --&gt;</LabelContent>
+    <LabelCount />
+    <LabelAddUser>0</LabelAddUser>
+    <LabelNodeID>0</LabelNodeID>
+    <Modeltypeinfo>计数判断</Modeltypeinfo>
+    <addroot>循环计算</addroot>
+    <setroot>等于</setroot>
+    <Modelvalue>0</Modelvalue>
+    <Valueroot />
+    <IsOpen>0</IsOpen>
+    <FalseContent />
+    <DataSourceType />
+    <ConnectString />
+    <ProceName />
+    <ProceParam />
+  </Table>
+</NewDataSet>
